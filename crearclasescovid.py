@@ -21,7 +21,7 @@ class Pais:
        self.PDC = PDC
 
 class Incidente:
-  def _init_(self,Pais,Fecha,NContagios,NFallecidos):
+  def _init_(self,Fecha,Pais,NContagios,NFallecidos):
        # Fecha: Fecha de los datos (datetima)
        # Pais: Nombre del pais que reporta los datos (str)
        # NContagios: Nuevos contagios presentados en Pais y Fecha (int)
